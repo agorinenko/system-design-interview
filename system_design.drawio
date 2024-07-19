@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T09:24:17.448Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="1dqTLU1AnSr9Ewo-Uw4_" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T09:25:44.841Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="mAT93IqA0vggc6Lu2ete" version="24.7.1" type="github">
   <diagram name="Страница — 1" id="w-XadC4w1YWJLaA7918E">
     <mxGraphModel dx="1306" dy="1883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,37 +103,37 @@
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-27" value="slave 2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="519" y="570" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VS8hZ2luYvlLE1ftjhRM-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="VS8hZ2luYvlLE1ftjhRM-10" target="VS8hZ2luYvlLE1ftjhRM-25">
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="VS8hZ2luYvlLE1ftjhRM-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="540" as="sourcePoint" />
+            <mxPoint x="390" y="480" as="sourcePoint" />
             <mxPoint x="240" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-29" value="Запись" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VS8hZ2luYvlLE1ftjhRM-28">
           <mxGeometry x="-0.0462" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-9" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VS8hZ2luYvlLE1ftjhRM-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="VS8hZ2luYvlLE1ftjhRM-12" target="VS8hZ2luYvlLE1ftjhRM-26">
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="VS8hZ2luYvlLE1ftjhRM-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="800" as="sourcePoint" />
+            <mxPoint x="390" y="480" as="sourcePoint" />
             <mxPoint x="290" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-31" value="Чтение" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VS8hZ2luYvlLE1ftjhRM-30">
           <mxGeometry x="0.2306" y="-3" relative="1" as="geometry">
-            <mxPoint x="-7" y="-20" as="offset" />
+            <mxPoint x="2" y="-25" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="548.5" y="440" as="sourcePoint" />
+            <mxPoint x="390" y="480" as="sourcePoint" />
             <mxPoint x="549.5" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-33" value="Чтение" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VS8hZ2luYvlLE1ftjhRM-32">
           <mxGeometry x="0.2306" y="-3" relative="1" as="geometry">
-            <mxPoint x="-7" y="-20" as="offset" />
+            <mxPoint x="-7" y="-28" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VS8hZ2luYvlLE1ftjhRM-25" target="VS8hZ2luYvlLE1ftjhRM-26">
@@ -144,7 +144,18 @@
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-35" value="Репликация" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VS8hZ2luYvlLE1ftjhRM-34">
           <mxGeometry x="-0.0297" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="609.5" as="sourcePoint" />
+            <mxPoint x="521" y="609.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-38" value="Репликация" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VS8hZ2luYvlLE1ftjhRM-37">
+          <mxGeometry x="-0.0297" y="-2" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
