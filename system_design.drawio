@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2024-07-18T13:16:08.542Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="OgZtXfayGYBmAq4vycJe" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T09:15:49.304Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="TAHeU7ByIV4RMSvTgsFW" version="24.7.1" type="github">
   <diagram name="Страница — 1" id="w-XadC4w1YWJLaA7918E">
-    <mxGraphModel dx="1306" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1306" dy="1883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-3" value="DNS" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;" vertex="1" parent="1">
+          <mxGeometry x="130" y="65" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="VS8hZ2luYvlLE1ftjhRM-8" target="VS8hZ2luYvlLE1ftjhRM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="90" as="sourcePoint" />
+            <mxPoint x="300" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-6" value="Балансировщик" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="VS8hZ2luYvlLE1ftjhRM-8" target="VS8hZ2luYvlLE1ftjhRM-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="397" y="150" as="sourcePoint" />
+            <mxPoint x="370" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-8" value="Мобильное приложение" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-10" value="Сервер 1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="189" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-11" value="Веб" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-12" value="Сервер 2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="349" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-13" value="Сервер 3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="509" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-14" value="за счет добавления балансировщика нагрузки нам удалось решить проблему с отсутствием отказо-устойчивости и улучшить доступность веб-уровня." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="449" y="230" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="VS8hZ2luYvlLE1ftjhRM-6" target="VS8hZ2luYvlLE1ftjhRM-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="250" as="sourcePoint" />
+            <mxPoint x="100" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="VS8hZ2luYvlLE1ftjhRM-6" target="VS8hZ2luYvlLE1ftjhRM-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="600" as="sourcePoint" />
+            <mxPoint x="350" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="VS8hZ2luYvlLE1ftjhRM-6" target="VS8hZ2luYvlLE1ftjhRM-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="570" as="sourcePoint" />
+            <mxPoint x="520" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
