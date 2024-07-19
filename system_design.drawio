@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T09:40:50.970Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="FG5Hd935dtWdkOPtrZ7m" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T10:58:26.558Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="RFoIBwxNRH8-xjRATsef" version="24.7.1" type="github">
   <diagram name="Страница — 1" id="w-XadC4w1YWJLaA7918E">
     <mxGraphModel dx="1306" dy="1883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,30 +78,30 @@
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-22" value="" style="endArrow=none;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="690" as="sourcePoint" />
-            <mxPoint x="120" y="530" as="targetPoint" />
+            <mxPoint x="640" y="850.22" as="sourcePoint" />
+            <mxPoint x="120" y="690.22" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="690" as="sourcePoint" />
-            <mxPoint x="640" y="530" as="targetPoint" />
+            <mxPoint x="640" y="850.22" as="sourcePoint" />
+            <mxPoint x="640" y="690.22" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="530" as="sourcePoint" />
-            <mxPoint x="640" y="530" as="targetPoint" />
+            <mxPoint x="120" y="690.22" as="sourcePoint" />
+            <mxPoint x="640" y="690.22" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-25" value="master" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="199" y="570" width="60" height="80" as="geometry" />
+          <mxGeometry x="199" y="730.22" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-26" value="slave 1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="360" y="570" width="60" height="80" as="geometry" />
+          <mxGeometry x="360" y="730.22" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-27" value="slave 2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="519" y="570" width="60" height="80" as="geometry" />
+          <mxGeometry x="519" y="730.22" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="VS8hZ2luYvlLE1ftjhRM-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -111,7 +111,7 @@
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-29" value="Запись" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VS8hZ2luYvlLE1ftjhRM-28">
           <mxGeometry x="-0.0462" y="2" relative="1" as="geometry">
-            <mxPoint x="-9" y="-22" as="offset" />
+            <mxPoint x="-46" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="VS8hZ2luYvlLE1ftjhRM-26">
@@ -125,7 +125,7 @@
             <mxPoint x="2" y="-25" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VS8hZ2luYvlLE1ftjhRM-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="VS8hZ2luYvlLE1ftjhRM-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="480" as="sourcePoint" />
             <mxPoint x="549.5" y="570" as="targetPoint" />
@@ -138,8 +138,8 @@
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VS8hZ2luYvlLE1ftjhRM-25" target="VS8hZ2luYvlLE1ftjhRM-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="630" as="sourcePoint" />
-            <mxPoint x="300" y="580" as="targetPoint" />
+            <mxPoint x="250" y="790.22" as="sourcePoint" />
+            <mxPoint x="300" y="740.22" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-35" value="Репликация" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VS8hZ2luYvlLE1ftjhRM-34">
@@ -149,8 +149,8 @@
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="609.5" as="sourcePoint" />
-            <mxPoint x="521" y="609.5" as="targetPoint" />
+            <mxPoint x="420" y="769.72" as="sourcePoint" />
+            <mxPoint x="521" y="769.72" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-38" value="Репликация" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VS8hZ2luYvlLE1ftjhRM-37">
@@ -159,13 +159,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-39" value="&lt;div&gt;Преимущества репликации базы данных:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Повышенная производительность. В модели «ведущий–ведомый» все операции записи и обновления происходят на ведущих узлах, а операции чтения распределяются между ведомыми. Это улучшает производительность, увеличивая количество запросов, которые можно обрабатывать параллельно.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Надежность. Если один из ваших серверов с базой данных сломается из-за стихийного бедствия, такого как тайфун или землетрясение, данные не будут утеряны. Вам не нужно беспокоиться о потере данных, так как они реплицируются по разным местам.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Высокая доступность. За счет репликации данных по разным местам ваш веб-сайт будет продолжать работать, даже если одна из БД выйдет из строя, поскольку у вас по-прежнему будет доступ к данным, размещенным на другом сервере.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="660" y="530" width="531" height="220" as="geometry" />
+          <mxGeometry x="660" y="690.22" width="531" height="220" as="geometry" />
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-40" value="CDN" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="30" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VS8hZ2luYvlLE1ftjhRM-41" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="430" width="120" height="80" as="geometry" />
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-41" value="Кеш данных" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="545" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-42" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -199,6 +199,21 @@
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-47" value="&lt;div&gt;Content Delivery Network&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Статические ресурсы (JS, CSS, изображения и т. д.) больше не раздаются веб-серверами. Для повышения производительности они извлекаются из CDN." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="740" y="17.5" width="303" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-49" value="Хранилище&amp;nbsp;&lt;div&gt;сессий пользователей&amp;nbsp;&lt;/div&gt;&lt;div&gt;Redis&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="720" y="348.75" width="100" height="102.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-50" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="VS8hZ2luYvlLE1ftjhRM-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="399" as="sourcePoint" />
+            <mxPoint x="720" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-51" value="Нагрузка на базу данных снижается за счет кэширования." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="570" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-52" value="Postgres" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="820" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
