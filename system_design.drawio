@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T09:25:44.841Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="mAT93IqA0vggc6Lu2ete" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T09:29:09.583Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="2lULKUVTGl_hOYQ3OtVT" version="24.7.1" type="github">
   <diagram name="Страница — 1" id="w-XadC4w1YWJLaA7918E">
     <mxGraphModel dx="1306" dy="1883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,8 +37,8 @@
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-13" value="Сервер 3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="509" y="360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VS8hZ2luYvlLE1ftjhRM-14" value="за счет добавления балансировщика нагрузки нам удалось решить проблему с отсутствием отказо-устойчивости и улучшить доступность веб-уровня." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="449" y="230" width="280" height="30" as="geometry" />
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-14" value="За счет добавления балансировщика нагрузки нам удалось решить проблему с отсутствием отказо-устойчивости и улучшить доступность веб-уровня." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="449" y="200" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VS8hZ2luYvlLE1ftjhRM-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="VS8hZ2luYvlLE1ftjhRM-6" target="VS8hZ2luYvlLE1ftjhRM-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -157,6 +157,9 @@
           <mxGeometry x="-0.0297" y="-2" relative="1" as="geometry">
             <mxPoint y="-11" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VS8hZ2luYvlLE1ftjhRM-39" value="&lt;div&gt;Преимущества репликации базы данных:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Повышенная производительность. В модели «ведущий–ведомый» все операции записи и обновления происходят на ведущих узлах, а операции чтения распределяются между ведомыми. Это улучшает производительность, увеличивая количество запросов, которые можно обрабатывать параллельно.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Надежность. Если один из ваших серверов с базой данных сломается из-за стихийного бедствия, такого как тайфун или землетрясение, данные не будут утеряны. Вам не нужно беспокоиться о потере данных, так как они реплицируются по разным местам.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Высокая доступность. За счет репликации данных по разным местам ваш веб-сайт будет продолжать работать, даже если одна из БД выйдет из строя, поскольку у вас по-прежнему будет доступ к данным, размещенным на другом сервере.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="530" width="531" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
